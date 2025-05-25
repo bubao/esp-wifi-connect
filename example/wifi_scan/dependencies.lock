@@ -1,0 +1,19 @@
+dependencies:
+  esp-wifi-connect:
+    dependencies:
+    - name: idf
+      version: '>=5.3'
+    source:
+      path: /Users/bubao/WorkSpace/esp32/components/esp-wifi-connect
+      type: local
+    version: 2.4.2
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+direct_dependencies:
+- esp-wifi-connect
+- idf
+manifest_hash: 0bc8b025f03c48c6359172dd8a94a901afe03185a8bfb2da3a84716c116d70e9
+target: esp32s2
+version: 2.0.0
